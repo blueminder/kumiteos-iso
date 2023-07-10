@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/cinnamon-applications.menu</MergeFile>
+	<DefaultLayout inline="false"/>
+	<Menu>
+		<Name>FG Resources</Name>
+		<Directory>FGResources.directory</Directory>
+		<AppDir>/usr/local/share/applications</AppDir>
+		<Include>
+			<Filename>SuperComboWiki.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>MizuumiWiki.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>DreamCancelWiki.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>Challonge.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>StartGG.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>FGCNetwork.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>Matcherino.desktop</Filename>
+		</Include>
+	</Menu>
+	<Layout>
+		<Merge type="menus"/>
+		<Menuname>Games</Menuname>
+        	<Menuname>Accessories</Menuname>
+		<Menuname>Education</Menuname>
+		<Menuname>Graphics</Menuname>
+		<Menuname>Internet</Menuname>
+		<Menuname>Office</Menuname>
+		<Menuname>Other</Menuname>
+		<Menuname>Development</Menuname>
+		<Menuname>Multimedia</Menuname>
+		<Menuname>System</Menuname>
+		<Menuname>Universal Access</Menuname>
+		<Menuname>wine-wine</Menuname>
+		<Menuname>Preferences</Menuname>
+		<Menuname>Administration</Menuname>
+		<Merge type="files"/>
+	</Layout>
+	<Menu>
+		<Name>Other</Name>
+	</Menu>
+</Menu>

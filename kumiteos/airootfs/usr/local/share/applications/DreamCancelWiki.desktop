@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Dream Cancel Wiki
+Exec=xdg-open http://www.dreamcancel.com
+Comment=Wiki for SNK fighting games
+Terminal=false
+Icon=dreamcancel
+Type=Application
+Hidden=false
+NoDisplay=false

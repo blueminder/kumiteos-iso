@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=FGC.Network
+Exec=xdg-open https://fgc.network/
+Comment=Fighting Game Community Fediverse Instance
+Terminal=false
+Icon=fgcnetwork
+Type=Application
+Hidden=false
+NoDisplay=false
+Path=
+StartupNotify=false

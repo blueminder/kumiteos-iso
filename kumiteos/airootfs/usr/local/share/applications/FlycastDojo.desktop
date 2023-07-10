@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=sh -c "\\$HOME/.fightcade2/emulator/flycast/flycast-dojo-x86_64.AppImage"
+Name=Flycast Dojo
+Comment=DC, NAOMI & Atomiswave emulator. Optimized for training & netplay
+Icon=flycast-dojo
+Categories=Game;Emulator
+StartupNotify=false

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=sh -c "\\$HOME/.scripts/kumite_welcome.sh"
+Name=KumiteOS Welcome
+Comment=
+Icon=kumite_fist
+

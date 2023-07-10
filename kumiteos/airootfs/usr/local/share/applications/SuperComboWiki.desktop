@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=SuperCombo Wiki
+Exec=xdg-open https://wiki.supercombo.gg/
+Comment=Repository for all fighting game knowledge
+Terminal=false
+Icon=supercombo
+Type=Application
+Hidden=false
+NoDisplay=false

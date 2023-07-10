@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=start.gg
+Exec=xdg-open https://www.start.gg/
+Comment=Online Tournament Brackets & Check-In
+Terminal=false
+Icon=startgg
+Type=Application
+Hidden=false
+NoDisplay=false

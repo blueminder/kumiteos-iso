@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Challonge
+Exec=xdg-open https://challonge.com/
+Comment=Tournament Brackets
+Terminal=false
+Icon=challonge
+Type=Application
+Hidden=false
+NoDisplay=false

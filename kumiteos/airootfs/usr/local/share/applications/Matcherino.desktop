@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Matcherino
+Exec=xdg-open https://www.matcherino.com/
+Comment=Tournament Crowd Funding
+Terminal=false
+Icon=matcherino
+Type=Application
+Hidden=false
+NoDisplay=false

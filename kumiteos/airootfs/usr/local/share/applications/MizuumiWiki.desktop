@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Mizuumi Wiki
+Exec=xdg-open https://wiki.gbl.gg/
+Comment=Wiki for niche versus and fighting games
+Terminal=false
+Icon=mizuumi
+Type=Application
+Hidden=false
+NoDisplay=false

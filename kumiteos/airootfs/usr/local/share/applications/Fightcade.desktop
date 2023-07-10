@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=sh -c "\\$HOME/.fightcade2/Fightcade2.sh"
+Name=Fightcade
+Comment=Matchmaking service for playing retro games online
+Categories=Game;Emulator;ArcadeGame
+Icon=fightcade

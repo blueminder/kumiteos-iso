@@ -1,0 +1,3 @@
+#!/bin/sh
+
+feh --no-fehbg --bg-scale /usr/local/share/wallpapers/kumiteos.png

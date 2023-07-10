@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Discord
+StartupWMClass=discord
+Comment=Voice and text chat for gamers
+GenericName=Internet Messenger
+Exec=/usr/share/discord/Discord
+Icon=discord
+Type=Application
+Categories=Network;InstantMessaging;
+Path=/usr/bin

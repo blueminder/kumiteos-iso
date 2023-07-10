@@ -1,0 +1,22 @@
+[org/cinnamon/desktop/interface]
+font-name='Noto Sans Regular 11'
+gtk-theme='Adapta-Nokto'
+icon-theme='Papirus'
+
+[org/cinnamon/desktop/wm/preferences]
+titlebar-font='Noto Sans Bold 11'
+
+[org/gnome/desktop/interface]
+document-font-name='Noto Sans Regular 11'
+icon-theme='Papirus'
+
+[org/cinnamon/desktop/background]
+picture-options='zoom'
+picture-uri='file:///usr/local/share/wallpapers/default_wallpaper.png'
+
+[org/cinnamon/theme]
+name='Adapta-Nokto'
+
+[org/cinnamon]
+favorite-apps=['Fightcade.desktop', 'FlycastDojo.desktop', 'chromium.desktop', 'discord.desktop']
+desktop-effects=false
