@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=xvfb-run sh -c "\\$HOME/.scripts/wineboot.sh"
+Name=Wine Boot
+Comment=
+Icon=wine
+

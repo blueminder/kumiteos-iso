@@ -212,6 +212,8 @@ xf86-video-vmware
 spice-vdagent
 virtualbox-guest-utils
 
+xorg-server-xvfb
+
 chromium
 
 # fightcade deps
@@ -241,3 +243,4 @@ yad
 
 erofs-utils
 libisoburn
+
