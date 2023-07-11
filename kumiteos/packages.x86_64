@@ -125,7 +125,8 @@ xfsprogs
 xl2tpd
 zsh
 
-#linux-zen
+linux-zen
+linux-zen-headers
 
 wget
 git

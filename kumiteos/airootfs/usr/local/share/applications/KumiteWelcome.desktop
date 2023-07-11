@@ -2,8 +2,8 @@
 Version=1.0
 Type=Application
 Terminal=false
-Exec=sh -c "\\$HOME/.scripts/kumite_welcome.sh"
-Name=KumiteOS Welcome
+Exec=chromium --no-startup-window
+Name=Chromium (background)
 Comment=
-Icon=kumite_fist
+Icon=chromium-browser
 
