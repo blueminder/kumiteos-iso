@@ -17,9 +17,9 @@ yad --form \
     --plug=$PLUG \
     --tabnum=2 \
     --field=" Set Root &amp; Live User Passwords!password-manager!Password protect your persistent installation":fbtn   "RunInTerminal ${HOME}/.scripts/change-pws.sh" \
-    --field=" Install Gallium Nine!colors-chromablue!Fixes blank FBNeo window with certain drivers":fbtn    "RunInTerminal ${HOME}/.scripts/install-g9.sh" \
-    --field=" Install DXVK!colors-chromagreen!Enables Vulkan-based implementation of Direct3D":fbtn     "RunInTerminal ${HOME}/.scripts/install-dxvk.sh" \
-    --field=" Reset Wine Profile!wine-uninstaller!Removes current Wine configuration":fbtn  "RunInTerminal rm -rf ~/.wine" &
+    --field=" Reset Wine Profile!wine!Removes current Wine configuration":fbtn  "RunInTerminal rm -rf ~/.wine" \
+    --field=" Install DXVK!colors-chromagreen!Enables Vulkan-based implementation of Direct3D.":fbtn     "RunInTerminal ${HOME}/.scripts/install-dxvk.sh" \
+    --field=" Enable Gallium Nine!colors-chromablue!Enabled by default. Toggle to re-enable after profile reset.":fbtn    "RunInTerminal wine ninewinecfg -e" &
 
 yad --form \
     --plug=$PLUG \

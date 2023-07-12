@@ -183,8 +183,8 @@ xreader
 lib32-mesa
 lib32-vulkan-radeon
 
-nvidia
-nvidia-settings
+#nvidia
+#nvidia-settings
 bbswitch
 
 amdvlk
@@ -219,8 +219,9 @@ chromium
 # fightcade deps
 rsync
 wine
-wine-mono
 wine-gecko
+wine-mono
+wine-nine
 lib32-mpg123
 lib32-libxss
 lib32-libcurl-gnutls
