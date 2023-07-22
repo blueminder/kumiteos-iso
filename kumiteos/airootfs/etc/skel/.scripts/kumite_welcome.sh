@@ -16,6 +16,7 @@ yad --form \
 yad --form \
     --plug=$PLUG \
     --tabnum=2 \
+    --field=" Copy Existing Fightcade ROMs!archive!Copies ROMs from existing Fightcade installation":fbtn   "RunInTerminal ${HOME}/.scripts/copy-old-fc-roms.sh" \
     --field=" Set Root &amp; Live User Passwords!password-manager!Password protect your persistent installation":fbtn   "RunInTerminal ${HOME}/.scripts/change-pws.sh" \
     --field=" Reset Wine Profile!wine!Removes current Wine configuration":fbtn  "RunInTerminal rm -rf ~/.wine" \
     --field=" Install DXVK!colors-chromagreen!Enables Vulkan-based implementation of Direct3D.":fbtn     "RunInTerminal ${HOME}/.scripts/install-dxvk.sh" \
