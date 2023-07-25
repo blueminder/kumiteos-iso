@@ -13,6 +13,7 @@ do
         sudo pacman -U --noconfirm /root/packages/archuseriso-0.7.9-1-any.pkg.tar.zst
     fi
 
+	sudo umount --all-targets /dev/${v}
 	sudo aui-mkusb kumiteos-latest.iso /dev/${v}
     exit 0
 done
