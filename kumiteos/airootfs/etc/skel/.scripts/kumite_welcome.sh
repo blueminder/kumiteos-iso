@@ -26,6 +26,7 @@ yad --form \
 yad --form \
     --plug=$PLUG \
     --tabnum=3 \
+    --field=" Select Existing KumiteOS ISO!media-cdrom!Select existing KumiteOS ISO file for writing":fbtn    "RunInTerminal ${HOME}/.scripts/select-existing-iso.sh" \
     --field=" Download Latest KumiteOS ISO!download!":fbtn    "RunInTerminal ${HOME}/.scripts/get-latest-iso.sh" \
     --field=" Open Partition Manager!gparted!":fbtn    "gparted" \
     --field=" Write ISO to USB Drive (Live w/ Persistence)!media-flash-memory-stick!":fbtn    "RunInTerminal ${HOME}/.scripts/write-persistent-usb.sh" &
