@@ -16,7 +16,8 @@ yad --form \
 yad --form \
     --plug=$PLUG \
     --tabnum=2 \
-    --field=" Copy Existing Fightcade ROMs!archive!Copies ROMs from existing Fightcade installation":fbtn   "RunInTerminal ${HOME}/.scripts/copy-old-fc-roms.sh" \
+    --field=" Use Existing Fightcade ROMs (Live)!start!Points Live Fightcade ROM directories to existing installation":fbtn   "RunInTerminal ${HOME}/.scripts/copy-old-fc-roms.sh" \
+    --field=" Copy Existing Fightcade ROMs (Persistent)!archive!Copies ROMs from existing Fightcade installation":fbtn   "RunInTerminal ${HOME}/.scripts/copy-old-fc-roms.sh" \
     --field=" Set Root &amp; Live User Passwords!password-manager!Password protect your persistent installation":fbtn   "RunInTerminal ${HOME}/.scripts/change-pws.sh" \
     --field=" Reset Wine Profile!wine!Removes current Wine configuration":fbtn  "RunInTerminal rm -rf ~/.wine" \
     --field=" Install DXVK!colors-chromagreen!Enables Vulkan-based implementation of Direct3D.":fbtn     "RunInTerminal ${HOME}/.scripts/install-dxvk.sh" \
@@ -26,6 +27,7 @@ yad --form \
     --plug=$PLUG \
     --tabnum=3 \
     --field=" Download Latest KumiteOS ISO!download!":fbtn    "RunInTerminal ${HOME}/.scripts/get-latest-iso.sh" \
+    --field=" Open Partition Manager!gparted!":fbtn    "gparted" \
     --field=" Write ISO to USB Drive (Live w/ Persistence)!media-flash-memory-stick!":fbtn    "RunInTerminal ${HOME}/.scripts/write-persistent-usb.sh" &
 
 cmd=(yad \
