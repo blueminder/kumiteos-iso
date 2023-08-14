@@ -20,6 +20,9 @@
 			<Filename>DreamCancelWiki.desktop</Filename>
 		</Include>
 		<Include>
+			<Filename>DustloopWiki.desktop</Filename>
+		</Include>
+		<Include>
 			<Filename>Challonge.desktop</Filename>
 		</Include>
 		<Include>
@@ -30,6 +33,14 @@
 		</Include>
 		<Include>
 			<Filename>Matcherino.desktop</Filename>
+		</Include>
+	</Menu>
+	<Menu>
+		<Name>KumiteOS Tools</Name>
+		<Directory>KumiteTools.directory</Directory>
+		<AppDir>${HOME}/.config/autostart</AppDir>
+		<Include>
+			<Filename>KumiteWelcome.desktop</Filename>
 		</Include>
 	</Menu>
 	<Layout>

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Dustloop Wiki
+Exec=xdg-open http://www.dustloop.com
+Comment=Wiki for Arc System Works games
+Terminal=false
+Icon=dustloop
+Type=Application
+Hidden=false
+NoDisplay=false

@@ -1,6 +1,6 @@
 [org/cinnamon/desktop/interface]
 font-name='Noto Sans Regular 11'
-gtk-theme='Adapta-Nokto'
+gtk-theme='CBlack'
 icon-theme='Papirus'
 
 [org/cinnamon/desktop/wm/preferences]
@@ -15,7 +15,7 @@ picture-options='zoom'
 picture-uri='file:///usr/local/share/wallpapers/default_wallpaper.png'
 
 [org/cinnamon/theme]
-name='Adapta-Nokto'
+name='CBlack'
 
 [org/cinnamon]
 favorite-apps=['Fightcade.desktop', 'FlycastDojo.desktop', 'chromium.desktop', 'discord.desktop']
