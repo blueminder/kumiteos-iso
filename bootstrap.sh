@@ -12,10 +12,10 @@ cd "${START_DIR}/kumiteos/airootfs/etc/skel/.fightcade2/fc2-electron/resources/a
 wget "https://raw.githubusercontent.com/blueminder/fightcade-joystick-kb-controls/main/inject.js"
 
 cd "${START_DIR}/kumiteos/airootfs/etc/skel/.fightcade2/emulator/flycast"
-wget "https://github.com/blueminder/flycast-dojo/releases/download/dojo-6.3/linux-flycast-dojo-6.3.zip"
-unzip linux-flycast-dojo-6.3.zip
+wget "https://github.com/blueminder/flycast-dojo/releases/download/dojo-6.6/linux-flycast-dojo-6.6.zip"
+unzip linux-flycast-dojo-6.6.zip
 chmod +x flycast-dojo-x86_64.AppImage
-rm linux-flycast-dojo-6.3.zip
+rm linux-flycast-dojo-6.6.zip
 
 cp -a "${START_DIR}/iso-preload/Fightcade/." "${START_DIR}/kumiteos/airootfs/etc/skel/.fightcade2/"
 
